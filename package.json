@@ -5,17 +5,17 @@
   "engines": {
     "node": "10.x"
   },
-
   "private": true,
   "dependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^5.2.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
-    "express": "^4.16.4",
-    "nodemailer": "^6.4.8",
-    "axios": "^0.19.2",
     "emailjs-com": "^2.4.1",
+    "express": "^4.16.4",
     "firebase": "^7.15.1",
     "google-maps-react": "^2.0.6",
+    "nodemailer": "^6.4.8",
     "react": "^16.8.6",
     "react-document-meta": "^3.0.0-beta.2",
     "react-dom": "^16.8.6",
@@ -24,11 +24,9 @@
     "react-router-dom": "5.0.0",
     "react-scripts": "^2.1.8"
   },
-
   "cacheDirectories": [
     "node_modules"
   ],
-
   "scripts": {
     "start": "concurrently \"node server\" \"react-scripts start\"",
     "build": "react-scripts build",
