@@ -13,6 +13,25 @@
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
   <script src="https://kit.fontawesome.com/0d91b9a5ef.js" crossorigin="anonymous"></script>
   <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '274331940791454'); 
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+   <img height="1" width="1" 
+      src="https://www.facebook.com/tr?id=274331940791454&ev=PageView
+      &noscript=1"/>
+  </noscript>
+  <!-- End Facebook Pixel Code -->
   <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
